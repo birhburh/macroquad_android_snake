@@ -1,0 +1,11 @@
+[package]
+name = "hello_maq"
+version = "0.1.0"
+edition = "2021"
+
+[package.metadata.android]
+label = "HELLO MAQ"
+min_sdk_version = 26
+
+[dependencies]
+macroquad = "=0.3.24"
